@@ -1,0 +1,14 @@
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\bin\Debug\net8.0\algorithem_task.exe
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\bin\Debug\net8.0\algorithem_task.deps.json
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\bin\Debug\net8.0\algorithem_task.runtimeconfig.json
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\bin\Debug\net8.0\algorithem_task.dll
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\bin\Debug\net8.0\algorithem_task.pdb
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.AssemblyInfoInputs.cache
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.AssemblyInfo.cs
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.csproj.CoreCompileInputs.cache
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.dll
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\refint\algorithem_task.dll
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.pdb
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.genruntimeconfig.cache
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\ref\algorithem_task.dll
