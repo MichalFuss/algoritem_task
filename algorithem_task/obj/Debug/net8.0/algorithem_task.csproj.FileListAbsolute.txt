@@ -12,3 +12,4 @@ C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithe
 C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.pdb
 C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.genruntimeconfig.cache
 C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\ref\algorithem_task.dll
+C:\Users\sara fuss\Desktop\Michal\תכנות\שנה ב\algorithem_task\algorithem_task\obj\Debug\net8.0\algorithem_task.sourcelink.json

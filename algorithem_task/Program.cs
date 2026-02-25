@@ -93,6 +93,7 @@ int LongestNonDecreasingSubsequence(LinkedList<int> list)
 {
     int[]arr = list.ToArray();
     int[] dp = new int[arr.Length];
+    int max = 0;
     for (int i = 0; i < arr.Length; i++)
     {
         dp[i] = 1;
@@ -102,10 +103,47 @@ int LongestNonDecreasingSubsequence(LinkedList<int> list)
             {
                 dp[i] = Math.Max(dp[i], dp[j] + 1);
             }
+            if(dp[i] > max)
+            {
+                max = dp[i];
+            }
         }
     }
-    int max=dp.Max();
     return arr.Length - max;
 }
-LinkedList<int> list = new LinkedList<int>(new int[] { 1,3,2,5,6,7});
+LinkedList<int> list = new LinkedList<int>(new int[] { 1,3,2,5,1,6,2,3,7,40,78,89,99,999,9990});
 Console.WriteLine(LongestNonDecreasingSubsequence(list));
+//4
+//To find how many subarrays have a sum of exactly X , we use a Hash Map to store 
+//the prefix sums of the elements from the beginning of the array to the current index. 
+//At each step, we check if the value currentSum - X exists in the map. If it does, we 
+//increment our counter by the number of times that prefix sum has occurred, as each 
+//occurrence represents a valid subarray ending at the current position. 
+int ExactlyX(int[]arr,int X)
+{
+    Dictionary<int, int> dict = new Dictionary<int, int>();
+    int count = 0,perfixSum=0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] == X)
+        {
+            count++;
+        }
+        perfixSum += arr[i];
+        if (dict.ContainsKey(perfixSum- X))
+        {
+            count += dict[perfixSum - X];
+        }
+        if (dict.ContainsKey(perfixSum))
+        {
+            dict[perfixSum]++;
+        }
+        else
+        {
+            dict[perfixSum] = 1;
+        }
+    }
+    return count;
+}
+int []arr4 = { 1, 2, 3, 4, 5,1,3,-2 };
+Console.WriteLine(ExactlyX(arr4,3));
