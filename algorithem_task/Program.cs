@@ -147,3 +147,11 @@ int ExactlyX(int[]arr,int X)
 }
 int []arr4 = { 1, 2, 3, 4, 5,1,3,-2 };
 Console.WriteLine(ExactlyX(arr4,3));
+//5
+//If we want to have both, we need to finish one kind first—either only the eggs or only 
+//the stickers—and only then take another one. 
+
+int min_eggs_to_guarantee(int N, int T, int S)
+{
+    return Math.Max(N - T, N - S) + 1;
+}
